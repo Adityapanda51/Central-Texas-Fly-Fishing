@@ -60,8 +60,18 @@ const StoriesSection = () => {
                 alignItems: 'center',
                 gap: { xs: 0, md: 2 },
                 pb: { xs: 3, md: 0 },
-                borderBottom: { xs: '1px solid #ddd', md: 'none' },
+                // borderBottom: { xs: '1px solid #ddd', md: 'none' },
+                // width: '100%',
+                position: 'relative', 
                 width: '100%',
+                "&::after": {
+                  content: '""',
+                  position: 'absolute',
+                  bottom: 0,
+                  left: '30px',
+                  right: 0, 
+                  borderBottom: '1px solid #ddd',
+                },
               }}
             >
            

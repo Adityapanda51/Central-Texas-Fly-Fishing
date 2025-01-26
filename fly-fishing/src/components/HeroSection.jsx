@@ -31,7 +31,7 @@ const HeroSection = () => (
             alt="Fly Fishing"
              loading="lazy"
             sx={{
-              width: { xs: '110%', md: '400px' }, 
+              width: { xs: '109%', md: '400px' }, 
               height: { xs: 'auto', md: '300px' }, 
               boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
             borderRadius: 0,
