@@ -315,7 +315,7 @@ const FeaturedSection = () => {
                 alignItems: "flex-start",
                 position: "relative",
                 width: "100%",
-                height: "250px",
+                height: "280px",
                 backgroundImage: `url(${item.image})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
@@ -348,7 +348,7 @@ const FeaturedSection = () => {
                   sx={{
                     fontWeight: "bold",
                     mb: 1,
-                    fontSize: "1.25rem", 
+                    fontSize: "32px", 
                   }}
                 >
                   {item.title}
@@ -356,7 +356,7 @@ const FeaturedSection = () => {
                 <Typography
                   sx={{
                     mb: 2,
-                    fontSize: "0.875rem",
+                    fontSize: "20px",
                     color: "#65625E",
                   }}
                 >
@@ -369,7 +369,7 @@ const FeaturedSection = () => {
                     color: "#1C1812",
                     boxShadow: "none",
                     textTransform: "none",
-                    fontSize: "0.875rem",
+                    fontSize: "16px",
                     // "&:hover": {
                     //   backgroundColor: "#5A4C3E",
                     // },
