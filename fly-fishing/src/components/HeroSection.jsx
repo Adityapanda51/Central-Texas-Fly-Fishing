@@ -3,7 +3,7 @@ import { Box, Typography, Button, Grid, Container } from '@mui/material';
 import heroImage from '../assets/HeroImage.jpeg';
 
 const HeroSection = () => (
-  <Box sx={{ py: 2, pt: 6, backgroundColor: '#fff' }}>
+  <Box sx={{ py: 2, pt: 1, backgroundColor: '#fff' }}>
     <Container maxWidth="lg" sx={{ px: { xs: 2, md: 4 } }}>
       <Grid
         container
@@ -29,6 +29,7 @@ const HeroSection = () => (
             component="img"
             src={heroImage}
             alt="Fly Fishing"
+             loading="lazy"
             sx={{
               width: { xs: '110%', md: '400px' }, 
               height: { xs: 'auto', md: '300px' }, 
